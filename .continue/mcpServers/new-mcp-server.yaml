@@ -1,0 +1,30 @@
+mcpServers:
+  awslabs.cost-analysis-mcp-server:
+    command: uvx
+    args:
+      - awslabs.cost-analysis-mcp-server@latest
+    env:
+      FASTMCP_LOG_LEVEL: ERROR
+      AWS_PROFILE: superhifi_dev_ar
+    disabled: true
+    autoApprove: []
+  playwright:
+    command: npx
+    args:
+      - '@playwright/mcp@latest'
+    disabled: true
+    autoApprove: []
+  context7:
+    command: npx
+    args:
+      - '-y'
+      - '@upstash/context7-mcp'
+    disabled: false
+    autoApprove: []
+    env:
+      DEFAULT_MINIMUM_TOKENS: '6000'
+  redis:
+    type: sse
+    url: http://localhost:8000/sse
+    disabled: true
+    autoApprove: []

@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: 
+  namespace: example
+type: Opaque
+data:
+  argocdadmin-password: emlsR2xESzROOHU0ak5Zc2tnRjJEOFN4dlVwak1zTQ==
+  collabora-username: Y29sbGFiYWRtaW4=
+  collabora-password: Ymllc2gzaWV0aDJhaFRoMGtvbzZlaXk=
+  db-admin-pass: VWFmZWlzaWUwdGVQaDNlZWhhaXNob2g=
+  nc-db-password: RWlIaTF1ZmFoaDRSZWVwb2hXZWUyRWU=
+  nc-db-hostname: ZXhhbXBsZS1wb3N0Z3Jlczo1NDMy
+  nc-db-name: ZXhhbXBsZW5jZGI=
+  nc-db-username: ZXhhbXBsZW5j
+  nextcloud-username: bmNhZG1pbg==
+  nextcloud-password: YWhHdWthdXBlZTdhZUM5bW9qb2NoMWg=
+  nextcloud-token: Qm9obGVldDRaYWV0aDFqaWVyYTlHaWU=
+  op-db-password: YWljOGFlYmllSGVlcXU5aXVUYWhwaGk=
+  redis-pass: YVBpZXNlaTVlaWo1RWlwaGV1ZmFoZDI=
+  replicationUserPassword: QWVmZWlxdWFoN0Fpc2hvaGdoZXo2YWU=
+  smtp-username: bWFpbGFkbWluQGV4YW1wbGUuY29t
+  smtp-password: YUZhZVo3b29wN0ZvZTd3ZWk1ZG9vZ2g=
+  smtp-host: bWFpbC5leGFtcGxlLmNvbQ==
+  HARBOR_ADMIN_PASSWORD: cjFyaDQyLTlodUtL
